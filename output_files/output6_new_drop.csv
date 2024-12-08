@@ -1,0 +1,9 @@
+Machine Name: a*b*c* Nondeterministic
+Initial String: ''
+String accepted in 2 transitions.
+Tree reach depth of 2
+Level 0: ['', 'q0', '']
+Level 1: ['_', 'q3', '_']
+Level 2: ['__', 'qacc', '_']
+Number configurations explored: 3
+Average non-determinisim: 1.5
