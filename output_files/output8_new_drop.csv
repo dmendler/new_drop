@@ -1,0 +1,4 @@
+Machine Name: a*b*c* Nondeterministic
+Initial String: 'cab'
+String rejected after 2 steps.
+Tree Depth: 2, Total Transitions: 3

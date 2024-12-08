@@ -1,0 +1,45 @@
+Enter the Turing Machine definition file: test_cases/check2_new_drop.csv
+Enter the input string: aaaaaaaaaaa
+Enter max depth (default 100): 
+Enter max transitions (default 1000): 
+Machine Name: a plus
+Initial String: 'aaaaaaaaaaa'
+String accepted in 23 transitions.
+Tree reach depth of 12
+Level 0: ['', 'q1', 'aaaaaaaaaaa']
+Level 1: ['a', 'q1', 'aaaaaaaaaa']
+Level 1: ['a', 'q2', 'aaaaaaaaaa']
+Level 2: ['aa', 'q1', 'aaaaaaaaa']
+Level 2: ['aa', 'q2', 'aaaaaaaaa']
+Level 2: ['a', 'qreject', 'aaaaaaaaaa']
+Level 3: ['aaa', 'q1', 'aaaaaaaa']
+Level 3: ['aaa', 'q2', 'aaaaaaaa']
+Level 3: ['aa', 'qreject', 'aaaaaaaaa']
+Level 4: ['aaaa', 'q1', 'aaaaaaa']
+Level 4: ['aaaa', 'q2', 'aaaaaaa']
+Level 4: ['aaa', 'qreject', 'aaaaaaaa']
+Level 5: ['aaaaa', 'q1', 'aaaaaa']
+Level 5: ['aaaaa', 'q2', 'aaaaaa']
+Level 5: ['aaaa', 'qreject', 'aaaaaaa']
+Level 6: ['aaaaaa', 'q1', 'aaaaa']
+Level 6: ['aaaaaa', 'q2', 'aaaaa']
+Level 6: ['aaaaa', 'qreject', 'aaaaaa']
+Level 7: ['aaaaaaa', 'q1', 'aaaa']
+Level 7: ['aaaaaaa', 'q2', 'aaaa']
+Level 7: ['aaaaaa', 'qreject', 'aaaaa']
+Level 8: ['aaaaaaaa', 'q1', 'aaa']
+Level 8: ['aaaaaaaa', 'q2', 'aaa']
+Level 8: ['aaaaaaa', 'qreject', 'aaaa']
+Level 9: ['aaaaaaaaa', 'q1', 'aa']
+Level 9: ['aaaaaaaaa', 'q2', 'aa']
+Level 9: ['aaaaaaaa', 'qreject', 'aaa']
+Level 10: ['aaaaaaaaaa', 'q1', 'a']
+Level 10: ['aaaaaaaaaa', 'q2', 'a']
+Level 10: ['aaaaaaaaa', 'qreject', 'aa']
+Level 11: ['aaaaaaaaaaa', 'q1', '_']
+Level 11: ['aaaaaaaaaaa', 'q2', '_']
+Level 11: ['aaaaaaaaaa', 'qreject', 'a']
+Level 12: ['aaaaaaaaaaa', 'qreject', '_']
+Level 12: ['aaaaaaaaaa', 'q3', 'a_']
+Number configurations explored: 35
+Average non-determinisim: 2.9166666666666665

@@ -1,0 +1,14 @@
+binary even number of 1s
+qstart,qeven,qodd,qaccept
+0,1
+_,0,1
+qstart
+qaccept
+qreject
+qstart,0,qstart,0,R
+qstart,1,qodd,1,R
+qodd,0,qodd,0,R
+qodd,1,qeven,1,R
+qeven,0,qeven,0,R
+qeven,1,qodd,1,R
+qeven,_,qaccept,_,L

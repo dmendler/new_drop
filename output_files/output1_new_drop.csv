@@ -1,0 +1,17 @@
+Machine Name: a plus
+Initial String: 'aaa'
+String accepted in 7 transitions.
+Tree reach depth of 4
+Level 0: ['', 'q1', 'aaa']
+Level 1: ['a', 'q1', 'aa']
+Level 1: ['a', 'q2', 'aa']
+Level 2: ['aa', 'q1', 'a']
+Level 2: ['aa', 'q2', 'a']
+Level 2: ['a', 'qreject', 'aa']
+Level 3: ['aaa', 'q1', '_']
+Level 3: ['aaa', 'q2', '_']
+Level 3: ['aa', 'qreject', 'a']
+Level 4: ['aaa', 'qreject', '_']
+Level 4: ['aa', 'q3', 'a_']
+Number configurations explored: 11
+Average non-determinisim: 2.75

@@ -1,0 +1,31 @@
+Machine Name: a*b*c* Nondeterministic
+Initial String: 'abc'
+String accepted in 15 transitions.
+Tree reach depth of 4
+Level 0: ['', 'q0', 'abc']
+Level 1: ['a', 'q0', 'bc']
+Level 1: ['a', 'q1', 'bc']
+Level 1: ['a', 'q2', 'bc']
+Level 1: ['a', 'q3', 'bc']
+Level 2: ['ab', 'q1', 'c']
+Level 2: ['ab', 'q2', 'c']
+Level 2: ['ab', 'q3', 'c']
+Level 2: ['ab', 'q1', 'c']
+Level 2: ['ab', 'q2', 'c']
+Level 2: ['ab', 'q3', 'c']
+Level 2: ['a', 'qrej', 'bc']
+Level 2: ['a', 'qrej', 'bc']
+Level 3: ['ab', 'qrej', 'c']
+Level 3: ['abc', 'q2', '_']
+Level 3: ['abc', 'q3', '_']
+Level 3: ['ab', 'qrej', 'c']
+Level 3: ['ab', 'qrej', 'c']
+Level 3: ['abc', 'q2', '_']
+Level 3: ['abc', 'q3', '_']
+Level 3: ['ab', 'qrej', 'c']
+Level 4: ['abc', 'qrej', '_']
+Level 4: ['abc_', 'qacc', '_']
+Level 4: ['abc', 'qrej', '_']
+Level 4: ['abc_', 'qacc', '_']
+Number configurations explored: 25
+Average non-determinisim: 6.25
